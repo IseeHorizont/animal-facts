@@ -15,17 +15,17 @@ public class Animal {
     private String animalName;
 
     @Column(name = "animal_type")
-    private String animal_type;
+    private String animalType;
 
     @Column(name = "animal_habitat")
-    private String animal_habitat;
+    private String animalHabitat;
 
-    @Column(name = "diet")
-    private String animal_diet;
+    @Column(name = "animal_diet")
+    private String animalDiet;
 
     @Column(name = "geo_range")
-    private String geo_range;
+    private String geoRange;
 
-    @Column(name = "image-reference")
-    private String image_reference;
+    @Column(name = "image_reference")
+    private String imageReference;
 }

@@ -8,11 +8,4 @@ import java.util.Optional;
 
 
 public interface AnimalRepository extends CrudRepository<Animal, Long> {
-    Animal save(Animal animal);
-
-    Optional<Animal> findById(Long id);
-
-    List<Animal> findAll();
-
-    void deleteById(Long id);
 }
